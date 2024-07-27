@@ -22,9 +22,12 @@ export default {
         '0.01em': '0.01em',
       },
       boxShadow: {
-        'rectangle1Boxes': '0px 0px 15px 0px rgba(69, 90, 100, 0.25)'
+        'rectangle1Boxes': '0px 0px 15px 0px rgba(69, 90, 100, 0.25)',
+        'carouselBoxes' : '0px 0px 15px 0px rgba(69, 90, 100, 0.05)' 
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
 };

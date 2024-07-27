@@ -1,9 +1,12 @@
 import React from 'react';
 import { MdArrowBackIos, MdArrowForwardIos } from "react-icons/md";
 
-const NavButton = ({ direction }) => {
+const NavButton = ({ direction, onClick }) => {
   return (
-    <div className="w-[50px] h-[50px] bg-[#DDDDDD] rounded-[10px] flex items-center justify-center">
+    <div 
+      className="w-[50px] h-[50px] bg-[#DDDDDD] rounded-[10px] flex items-center justify-center cursor-pointer"
+      onClick={() => onClick(direction)}
+    >
       {direction === 'left' ? (
         <MdArrowBackIos className="w-[20px] h-[20px]" style={{color : "#263238" , alignItems : "center"}}/>
       ) : (
@@ -13,11 +16,11 @@ const NavButton = ({ direction }) => {
   );
 };
 
-const Navigation = () => {
+const Navigation = ({ onNavigate }) => {
   return (
     <div className="flex space-x-[18px]">
-      <NavButton direction="left" />
-      <NavButton direction="right" />
+      <NavButton direction="left" onClick={onNavigate} />
+      <NavButton direction="right" onClick={onNavigate} />
     </div>
   );
 };
