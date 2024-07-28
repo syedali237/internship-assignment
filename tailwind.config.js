@@ -23,7 +23,8 @@ export default {
       },
       boxShadow: {
         'rectangle1Boxes': '0px 0px 15px 0px rgba(69, 90, 100, 0.25)',
-        'carouselBoxes' : '0px 0px 15px 0px rgba(69, 90, 100, 0.05)' 
+        'carouselBoxes' : '0px 0px 15px 0px rgba(69, 90, 100, 0.05)',
+        'lastBox' : '0px 4px 10px 0px rgba(0, 0, 0, 0.25)'
       }
     },
   },

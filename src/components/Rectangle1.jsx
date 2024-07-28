@@ -35,8 +35,9 @@ function Rectangle1() {
           </div>
         </div>
       </div>
-
+      <div className='mt-[45px] mx-[685px]'>
       <CarouselScroll />
+      </div>  
     </div>
   );
 }
