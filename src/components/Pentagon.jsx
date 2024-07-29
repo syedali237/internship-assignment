@@ -13,16 +13,16 @@ const Pentagon = () => {
     <div>
 
       <div className="relative w-[959px] h-[500px] mx-[241px] mb-[150px]">
-<div className='absolute right-[464px] w-[33px] h-[30px] top-[29px] font-poppins font-semibold text-[28px] leading-[30px] text-[#009EFF]'>vs</div>
+<div className='absolute right-[464px] w-[33px] h-[30px] top-[29px] font-poppins font-semibold text-[28px] leading-[30px] text-[#009EFF]' data-aos="zoom-in">vs</div>
 {/* ---------------------------WHITE BOX--------------------------  */}
 
-        <div className="absolute right-[0] w-[495.45px] h-[500px] clip-pentagon2 rounded-[30px] bg-[#FFFFFF] shadow-carouselBoxes text-[#455A64]">
+        <div className="absolute right-[0] w-[495.45px] h-[500px] clip-pentagon2 rounded-[30px] bg-[#FFFFFF] shadow-carouselBoxes text-[#455A64]" data-aos="slide-left">
           <div>
-            <h1 className="font-poppins font-medium text-[24px] leading-[30px] ml-[221.45px] mt-[35px]">
+            <h1 className="font-poppins font-medium text-[24px] leading-[30px] ml-[221.45px] mt-[35px]" data-aos="slide-left">
               Regular
             </h1>
 
-            <div className="flex flex-row w-[360px] h-[92px] ml-[93.45px] mt-[40px] mb-[11px] font-jakarta">
+            <div className="flex flex-row w-[360px] h-[92px] ml-[93.45px] mt-[40px] mb-[11px] font-jakarta" data-aos="slide-left">
               <div className="mr-[25px] my-[26px]">
                 <GrDocumentOutlook className="w-[33.57px] h-[40px]" />
               </div>
@@ -36,11 +36,11 @@ const Pentagon = () => {
               </div>
             </div>
 
-            <div className="font-poppins font-medium text-[14px] leading-[30px] ml-[93.45px]">
+            <div className="font-poppins font-medium text-[14px] leading-[30px] ml-[93.45px]" data-aos="slide-left">
               .........................................................................................................
             </div>
 
-            <div className="flex flex-row w-[360px] h-[92px] ml-[93.45px] my-[11px] font-jakarta">
+            <div className="flex flex-row w-[360px] h-[92px] ml-[93.45px] my-[11px] font-jakarta" data-aos="slide-left">
               <div className="mr-[25px] my-[26px]">
                 <GoChecklist className="w-[33.67px] h-[40.01px]" />
               </div>
@@ -54,11 +54,11 @@ const Pentagon = () => {
               </div>
             </div>
 
-            <div className="font-poppins font-medium text-[14px] leading-[30px] ml-[93.45px]">
+            <div className="font-poppins font-medium text-[14px] leading-[30px] ml-[93.45px]" data-aos="slide-left">
               .........................................................................................................
             </div>
 
-            <div className="flex flex-row w-[360px] h-[92px] ml-[93.45px] my-[11px] font-jakarta">
+            <div className="flex flex-row w-[360px] h-[92px] ml-[93.45px] my-[11px] font-jakarta" data-aos="slide-left">
               <div className="mr-[25px] my-[26px]">
                 <VscLaw className="w-[46.74px] h-[47.85px]" />
               </div>
@@ -75,15 +75,16 @@ const Pentagon = () => {
           </div>
         </div>
 {/* --------------------------------------BLUE------------------------- */}
-        <div className="absolute right-[463.55px] w-[495.45px] h-[500px] clip-pentagon rounded-[30px] bg-custom-gradient text-[#FFFFFF]">
+        <div className="absolute right-[463.55px] w-[495.45px] h-[500px] clip-pentagon rounded-[30px] bg-custom-gradient text-[#FFFFFF]" data-aos="slide-right">
           <div>
             <img
               src={judixPhoto}
               alt="judix"
               className="mt-[25px] w-[90.35px] h-[45px] ml-[143px] object-fit"
+              data-aos="slide-right"
             ></img>
 
-            <div className="flex flex-row w-[360px] h-[92px] ml-[42px] mt-[35px] mb-[11px] font-jakarta">
+            <div className="flex flex-row w-[360px] h-[92px] ml-[42px] mt-[35px] mb-[11px] font-jakarta" data-aos="slide-right">
               <div className="mr-[25px] my-[26px]">
                 <IoDocumentsOutline className="w-[36px] h-[40px]" />
               </div>
@@ -98,11 +99,11 @@ const Pentagon = () => {
               </div>
             </div>
 
-            <div className="font-poppins font-medium text-[14px] leading-[30px] ml-[43px]">
+            <div className="font-poppins font-medium text-[14px] leading-[30px] ml-[43px]" data-aos="slide-right">
               .........................................................................................................
             </div>
 
-            <div className="flex flex-row w-[360px] h-[92px] ml-[42px] my-[11px] font-jakarta">
+            <div className="flex flex-row w-[360px] h-[92px] ml-[42px] my-[11px] font-jakarta" data-aos="slide-right">
               <div className="mr-[25px] my-[26px]">
                 <LuListTodo className="w-[42.26px] h-[40px]" />
               </div>
@@ -118,11 +119,11 @@ const Pentagon = () => {
               </div>
             </div>
 
-            <div className="font-poppins font-medium text-[14px] leading-[30px] ml-[43px]">
+            <div className="font-poppins font-medium text-[14px] leading-[30px] ml-[43px]" data-aos="slide-right">
               .........................................................................................................
             </div>
 
-            <div className="flex flex-row w-[360px] h-[92px] ml-[42px] mt-[11px] font-jakarta">
+            <div className="flex flex-row w-[360px] h-[92px] ml-[42px] mt-[11px] font-jakarta" data-aos="slide-right">
               <div className="mr-[25px] my-[26px]">
                 <GoLaw className="w-[45.99px] h-[40px]" />
               </div>

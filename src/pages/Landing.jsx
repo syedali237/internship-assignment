@@ -10,25 +10,25 @@ import lenskartPhoto from '../assets/lenskarTT.png';
 export default function Landing() {
   return (
     <div className="flex flex-col items-center justify-center mb-[100px]">
-      <div className="text-center mx-[153px] mt-[120px] mb-[110px]">
-        <h1 className="text-[42px] md:text-4xl font-poppins font-bold text-gray-800">
+      <div className="text-center mx-[153px] mt-[120px] mb-[110px]" data-aos="fade-up">
+        <h1 className="text-[42px] md:text-4xl font-poppins font-bold text-gray-800" data-aos="zoom-in">
           Your Startup's legal partner. Simplified, transparent,<br></br>{" "}
           automated.
           <span className="text-[#F89A36]"> From Start to Scale.</span>
         </h1>
-        <p className="text-[18px] font-poppins font-normal text-[#0B2C4B] mt-[70px]">
+        <p className="text-[18px] font-poppins font-normal text-[#0B2C4B] mt-[70px]" data-aos="zoom-in">
           The only end-to-end platform offering integrated legal solutions that
           combines human<br></br> intelligence and technology to automate all
           your legal and taxation complexities and provides<br></br> you with a
           peace of mind to focus on your startup.
         </p>
-        <button className="mt-[60px] font-poppins bg-[#1B72B1] text-[#FFFFFF] py-[11px] px-[21px] rounded-[5px]">
+        <button data-aos="zoom-in" className="mt-[60px] font-poppins bg-[#1B72B1] text-[#FFFFFF] py-[11px] px-[21px] rounded-[5px]">
           Book a demo
         </button>
       </div>
 
-      <section className="w-full text-center pt-[30px]">
-      <div className='flex justify-center'>
+      <section className="w-full text-center pt-[30px]" data-aos="fade-up">
+      <div className='flex justify-center' data-aos="zoom-in">
       <div className="border-t border-[#6D6969] w-[100px] mx-[10px] my-[13px]"></div>
         <h2 className="text-[#455A64] text-[24px] font-jakarta font-extrabold leading-[25px] tracking-[0.08em]">
           TRUSTED BY STARTUPS <span className="text-[#F89A36]">LIKE YOURS</span>

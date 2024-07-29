@@ -8,6 +8,10 @@ import Uses from './pages/Uses';
 import Features from './pages/Features';
 import Pentagon from './components/Pentagon';
 import Reviews from './pages/Reviews';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+
+Aos.init();
 
 function App() {
   return (

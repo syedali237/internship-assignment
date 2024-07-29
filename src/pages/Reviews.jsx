@@ -5,14 +5,14 @@ import CarouselScroll3 from '../components/CarouselScroll3';
 function Reviews() {
   return (
     <div>
-      <h1 className="mb-[60px] font-poppins font-bold text-[36px] leading-[60px] text-center text-[#0B2C4B]">
+      <h1 className="mb-[60px] font-poppins font-bold text-[36px] leading-[60px] text-center text-[#0B2C4B]" data-aos="zoom-in">
         What our <span className="text-[#F89A36]">users</span> say about us
       </h1>
 
       {/* <CarouselScroll3 reviews={UserReview} /> */}
       
 
-      <div className="w-[982px] h-[250px] bg-[#AFAFAF1A] mx-[229px] mb-[40px] rounded-[10px]">
+      <div className="w-[982px] h-[250px] bg-[#AFAFAF1A] mx-[229px] mb-[40px] rounded-[10px]" data-aos="zoom-in">
         <div className="flex flex-row pt-[50px] ml-[43px]">
           <p className="text-center font-jakarta text-[100px] text-[#0B2C4B] font-bold leading-[126px] w-[56px] h-[75px]">
             “
@@ -40,19 +40,19 @@ function Reviews() {
         </div>
       </div>
 
-      <div className="mb-[90px] mx-[692px]">
+      <div className="mb-[90px] mx-[692px]" data-aos="zoom-in">
         <CarouselScroll3 />
       </div>
 
-      <div className="bg-#FFFFFF shadow-lastBox w-[1134px] h-[300px] rounded-[25px] mx-[153px] mb-[70px]">
-        <h1 className="mb-[45px] font-jakarta font-extrabold text-[42px] leading-[25px] text-[#0B2C4B] pt-[57px] mx-[140px] text-center">
+      <div className="bg-#FFFFFF shadow-lastBox w-[1134px] h-[300px] rounded-[25px] mx-[153px] mb-[70px]" data-aos="zoom-in">
+        <h1 className="mb-[45px] font-jakarta font-extrabold text-[42px] leading-[25px] text-[#0B2C4B] pt-[57px] mx-[140px] text-center" data-aos="zoom-in">
           Your Startup’s Legal Partner :
           <span className="text-[#F89A36]"> Transparent</span>
         </h1>
-        <p className="mb-[35px] font-poppins font-normal text-[20px] leading-[30px] tracking-[0.02em] text-[#0B2C4B] mx-[382px] text-center">
+        <p data-aos="zoom-in" className="mb-[35px] font-poppins font-normal text-[20px] leading-[30px] tracking-[0.02em] text-[#0B2C4B] mx-[382px] text-center">
           Want to know more or have a chat?
         </p>
-        <button className="mx-[458px] mb-[56px] w-[218px] h-[52px] rounded-[31px] bg-[#F89A36] font-poppins font-normal text-[18px] leading-[30px] tracking-[0.02em] text-center text-[#FFFFFF]">
+        <button data-aos="zoom-in" className="mx-[458px] mb-[56px] w-[218px] h-[52px] rounded-[31px] bg-[#F89A36] font-poppins font-normal text-[18px] leading-[30px] tracking-[0.02em] text-center text-[#FFFFFF]">
           Request a callback
         </button>
       </div>

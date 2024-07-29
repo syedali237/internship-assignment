@@ -4,7 +4,7 @@ import { MdEmail, MdPhone } from 'react-icons/md';
 
 function Footer() {
   return (
-    <footer className="bg-[#0B2C4B] text-[#E9F2F9] pt-[19px] pb-[13px] h-[200px] font-jakarta font-normal text-[15px] leading-[18.9px]">
+    <footer className="bg-[#0B2C4B] text-[#E9F2F9] pt-[19px] pb-[13px] h-[200px] font-jakarta font-normal text-[15px] leading-[18.9px]" data-aos="fade-up">
       <div className="flex ml-[63px] mr-[65px]">
         <div className="mt-[35px]">
           <img

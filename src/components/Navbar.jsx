@@ -22,7 +22,6 @@ export default function Navbar() {
             Talk to Lawyer/CA
           </a>
         </div>
-        {/* difference between the two divs 146px */}
         <div className="flex items-center space-x-[25px] ml-10">
           <a href="/login" className="text-[#000000] hover:text-gray-400">
             Log In / Sign Up

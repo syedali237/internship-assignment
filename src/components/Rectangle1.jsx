@@ -5,12 +5,12 @@ import CarouselScroll from './CarouselScroll';
 
 function Rectangle1() {
   return (
-    <div className="bg-[#FFFFFFBF] h-[500px] w-full">
-      <h3 className="text-[28px] font-jakarta font-semibod leading-[35.28px] tracking-[0.02em] text-center pt-[70px] pb-[53px]">
+    <div className="bg-[#FFFFFFBF] h-[500px] w-full" data-aos="fade-up">
+      <h3 className="text-[28px] font-jakarta font-semibod leading-[35.28px] tracking-[0.02em] text-center pt-[70px] pb-[53px]" data-aos="slide">
         Managing legal affairs is complicated!
       </h3>
       <div className="grid grid-cols-2 gap-[50px] mx-[195px]">
-        <div className="w-[500px] h-[250px] rounded-[25px] border shadow-rectangle1Boxes border-opacity-0">
+        <div className="w-[500px] h-[250px] rounded-[25px] border shadow-rectangle1Boxes border-opacity-0" data-aos="zoom-in">
           <div className="flex flex-col items-center">
             <PiCirclesThreePlus
               className="mt-[43px] mb-[30px]"
@@ -22,7 +22,7 @@ function Rectangle1() {
             </p>
           </div>
         </div>
-        <div className="w-[500px] h-[250px] rounded-[25px] border shadow-rectangle1Boxes border-opacity-0">
+        <div className="w-[500px] h-[250px] rounded-[25px] border shadow-rectangle1Boxes border-opacity-0" data-aos="zoom-in">
           <div className="flex flex-col items-center">
             <FiMonitor
               className="mt-[43px] mb-[30px]"

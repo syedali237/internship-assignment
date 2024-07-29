@@ -41,45 +41,51 @@ function Features() {
       <div className="mx-[200px] space-y-[90px] font-poppins">
 
         <section className='flex flex-row w-[1040px] h-[267.57px]'>
-        <div className='mr-[65px]'>
+        <div className='mr-[65px]' data-aos="slide-right">
           <h2 className="text-[28px] mb-[20px] font-semibold leading-[60px] text-[#263238]">Designed to give you a peace of mind</h2>
           <p className="text-[#000000] text-[16px] leading-[30px] font-light">
           Customers experience peace of mind knowing that we handle their legal complexities, allowing them to avoid the stress and burden of managing these issues themselves.
           </p>
           </div>
+          <div data-aos="slide-left">
           <FeatureCard
             title="Compliance progress"
             description=""
             progress={96}
           />
+          </div>
         </section>
 
         <section className='flex flex-row-reverse w-[1040px] h-[267.57px]'>
-        <div className='ml-[65px]'>
+        <div className='ml-[65px]' data-aos="slide-left">
           <h2 className="text-[28px] mb-[20px] font-semibold leading-[60px] text-[#263238]">Save time and reduce costs</h2>
           <p className="text-[#000000] text-[16px] leading-[30px] font-light">
           We reduce the burden on founders by freeing up their time, resources, and mental bandwidth, allowing them to concentrate on their core operations and business growth.
           </p>
           </div>
+          <div data-aos="slide-right">
           <FeatureCard
             title="Compliance progress"
             description=""
             progress={96}
           />
+          </div>
         </section>
 
         <section className='flex flex-row w-[1040px] h-[267.57px]'>
-        <div className='mr-[59px]'>
+        <div className='mr-[59px]' data-aos="slide-right">
           <h2 className="text-[28px] mb-[20px] font-semibold leading-[60px] text-[#263238]">Unparalleled legal, guidance, and support</h2>
           <p className="text-[#000000] text-[16px] leading-[30px] font-light">
           Connects with experienced lawyers and chartered accountants for personalized consultations, offering exceptional legal guidance and support. Navigate complex legal matters confidently with our top-notch expertise and dedicated assistance.
           </p>
           </div>
+          <div data-aos="slide-left">
           <FeatureCard
             title="Compliance progress"
             description=""
             progress={96}
           />
+          </div>
         </section>
       </div>
     </div>

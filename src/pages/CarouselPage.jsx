@@ -38,7 +38,7 @@ export default function CarouselPage(){
 
   return (
     <div className="mb-[70px]">
-      <div className="mt-[70px] ml-[142px]">
+      <div className="mt-[70px] ml-[142px]" data-aos="zoom-in">
         <p className="font-poppins font-semibold text-[18px] text-left leading-[27px] tracking-[0.02em] text-[#8F8D8E] mb-[30px]">
           That's where we come
         </p>
