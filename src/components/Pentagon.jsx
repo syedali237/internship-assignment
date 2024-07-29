@@ -11,8 +11,9 @@ import { VscLaw } from "react-icons/vsc";
 const Pentagon = () => {
   return (
     <div>
-      <div className="relative w-[959px] h-[500px] mx-[241px] mb-[150px]">
 
+      <div className="relative w-[959px] h-[500px] mx-[241px] mb-[150px]">
+<div className='absolute right-[464px] w-[33px] h-[30px] top-[29px] font-poppins font-semibold text-[28px] leading-[30px] text-[#009EFF]'>vs</div>
 {/* ---------------------------WHITE BOX--------------------------  */}
 
         <div className="absolute right-[0] w-[495.45px] h-[500px] clip-pentagon2 rounded-[30px] bg-[#FFFFFF] shadow-carouselBoxes text-[#455A64]">
@@ -73,8 +74,6 @@ const Pentagon = () => {
 
           </div>
         </div>
-
-
 {/* --------------------------------------BLUE------------------------- */}
         <div className="absolute right-[463.55px] w-[495.45px] h-[500px] clip-pentagon rounded-[30px] bg-custom-gradient text-[#FFFFFF]">
           <div>

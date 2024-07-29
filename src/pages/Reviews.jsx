@@ -9,9 +9,12 @@ function Reviews() {
         What our <span className="text-[#F89A36]">users</span> say about us
       </h1>
 
+      {/* <CarouselScroll3 reviews={UserReview} /> */}
+      
+
       <div className="w-[982px] h-[250px] bg-[#AFAFAF1A] mx-[229px] mb-[40px] rounded-[10px]">
         <div className="flex flex-row pt-[50px] ml-[43px]">
-          <p className="pb-[35px] text-center font-jakarta text-[100px] text-[#0B2C4B] font-bold leading-[126px] w-[56px] h-[75px]">
+          <p className="text-center font-jakarta text-[100px] text-[#0B2C4B] font-bold leading-[126px] w-[56px] h-[75px]">
             “
           </p>
           <p className="ml-[20px] pt-[22px] font-jakarta font-medium text-[18px] leading-[30px] text-[#6D6969] w-[587px] h-[103px]">
@@ -36,6 +39,7 @@ function Reviews() {
           </div>
         </div>
       </div>
+
       <div className="mb-[90px] mx-[692px]">
         <CarouselScroll3 />
       </div>
