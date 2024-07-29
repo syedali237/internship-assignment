@@ -6,7 +6,7 @@ import Footer from './components/Footer';
 import Rectangle2 from './components/Rectangle2';
 import Uses from './pages/Uses';
 import Features from './pages/Features';
-import ComparisonTable from './pages/ComparisonPage';
+import Pentagon from './components/Pentagon';
 import Reviews from './pages/Reviews';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
       <Rectangle2 />
       <Uses />
       <Features />
-      <ComparisonTable />
+      <Pentagon />
       <Reviews />
       <Footer />
     </div>
