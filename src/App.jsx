@@ -15,7 +15,7 @@ Aos.init();
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{'overflow-x' : 'hidden'}}>
       <Navbar />
       <Landing />
       <Rectangle1 />
